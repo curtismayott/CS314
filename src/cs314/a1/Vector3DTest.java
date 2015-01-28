@@ -26,6 +26,7 @@ public class Vector3DTest {
 		Vector3D result = new Vector3D(4, 4, 4);
 		testA.scale(4);
 		assertTrue(testA.equals(result));
+		System.out.println("This is a test");
 		//System.out.println("A: " + testA.toString() + "\nResult: " + result.toString());
 	}
 
