@@ -38,16 +38,16 @@ public class Vector3DTest {
 		assertTrue(expected.equals(result));
 		//System.out.println("A: " + testA.toString() + "\nB: " + testB.toString() + "\nResult: " + result.toString());
 	}
-/*
+
 	@Test
 	public void testSubtract() {
 		Vector3D testA = new Vector3D(5, 5, 5);
 		Vector3D testB = new Vector3D(0, 1, 2);
 		Vector3D result = new Vector3D(5, 4, 3);
-		testA.subtract(testB);
-		assertEquals(testA, result);
+		Vector3D expected = testA.subtract(testB);
+		assertTrue(expected.equals(result));
 	}
-
+/*
 	@Test
 	public void testNegate() {
 		Vector3D testA = new Vector3D(1, 2, 3);
