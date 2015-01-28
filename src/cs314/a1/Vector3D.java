@@ -26,8 +26,14 @@ public class Vector3D {
 	}
 	
 	// negate
+	public void negate(){
+		this.scale(-1);	
+	}
 	
 	// dot
+	public Vector3D dot(Vector3D v){
+		return new Vector3D(this.x * v.x, this.y * v.y, this.z * v.z);
+	}
 	
 	// magnitude
 	

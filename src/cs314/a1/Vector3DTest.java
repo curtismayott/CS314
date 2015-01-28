@@ -48,23 +48,24 @@ public class Vector3DTest {
 		Vector3D expected = testA.subtract(testB);
 		assertTrue(expected.equals(result));
 	}
-/*
+
 	@Test
 	public void testNegate() {
 		Vector3D testA = new Vector3D(1, 2, 3);
 		Vector3D result = new Vector3D(-1, -2, -3);
 		testA.negate();
-		assertEquals(testA, result);
+		assertTrue(testA.equals(result));
 	}
 
 	@Test
 	public void testDot() { // returns double Vector3D testA = new
-		Vector3D(1, 1, 1);
+		Vector3D testA = new Vector3D(1, 1, 1);
 		Vector3D testB = new Vector3D(0, 1, 2);
-		double result = 3;
-		assertEquals(testA.dot(testB), result);
+		Vector3D result = new Vector3D(0, 1, 2);
+		Vector3D expected = testA.dot(testB);
+		assertTrue(expected.equals(result));
 	}
-
+/*
 	@Test
 	public void testMagnitude() { // returns double Vector3D testA = new
 		Vector3D(1, 3, 5);
