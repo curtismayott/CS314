@@ -25,6 +25,12 @@ public class Vector3D {
 		return new Vector3D(this.x - v.x, this.y - v.y, this.z - v.z);
 	}
 	
+	// negate
+	
+	// dot
+	
+	// magnitude
+	
 	
 	// override equalto for testing
 	public boolean equals(Vector3D v){
