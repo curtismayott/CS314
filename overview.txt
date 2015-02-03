@@ -1,0 +1,25 @@
+CS314 Assignment #1
+
+Sean Mann
+Tyler Kuntz
+Curtis Mayott
+
+Design approaches is something we need to work on. Both Tyler and Sean worked on one method, which was unnecessary. //more documentation here
+
+Specific contributions:
+
+	Curtis:
+
+	Sean: Implemented subtract and magnitude methods.
+
+	Tyler:
+
+Time spent:
+
+	Curtis:
+
+	Sean:
+
+	Tyler:
+
+"I (We) have not given, received, or used any unauthorized assistance."
