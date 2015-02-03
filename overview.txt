@@ -4,11 +4,15 @@ Sean Mann
 Tyler Kuntz
 Curtis Mayott
 
-Design approaches is something we need to work on. Both Tyler and Sean worked on one method, which was unnecessary. //more documentation here
+Design approaches is something we need to work on. 
+Both Tyler and Sean worked on one method, which was unnecessary.
+Project/GitHub setup was time consuming - need to get used to it.
+This assignment seemed to be too simple to do as a team (<100 lines of code for 3 people), this is a reason as to why it was difficult to split up the work effectively.
+
 
 Specific contributions:
 
-	Curtis:
+	Curtis:Initialized GitHub for team, helped with setup on other machines, wrote all test cases and test controller (AllTest.java), methods written in Vector3D: constructor, scale, add, and equals.
 
 	Sean: Implemented subtract and magnitude methods.
 
@@ -16,10 +20,14 @@ Specific contributions:
 
 Time spent:
 
-	Curtis:
+	Curtis: 1 hour - github/project setup; 1.5 hours - test cases written and made to work; 5 minutes - functions in Vector3D.
 
 	Sean:
 
 	Tyler:
 
+
 "I (We) have not given, received, or used any unauthorized assistance."
+-Sean Mann
+-Tyler Kuntz
+-Curtis Mayott
