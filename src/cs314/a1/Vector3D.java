@@ -31,12 +31,14 @@ public class Vector3D {
 	}
 	
 	// dot
-	public Vector3D dot(Vector3D v){
-		return new Vector3D(this.x * v.x, this.y * v.y, this.z * v.z);
+	public double dot(Vector3D v){
+		return this.x * v.x + this.y * v.y + this.z * v.z;
 	}
 	
 	// magnitude
-	
+	public double magnitude(Vector3D v){
+		return Math.sqrt(this.x * v.x + this.y * v.y + this.z * v.z);
+	}
 	
 	// override equalto for testing
 	public boolean equals(Vector3D v){

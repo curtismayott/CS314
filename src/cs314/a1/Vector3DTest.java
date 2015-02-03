@@ -61,18 +61,19 @@ public class Vector3DTest {
 	public void testDot() { // returns double Vector3D testA = new
 		Vector3D testA = new Vector3D(1, 1, 1);
 		Vector3D testB = new Vector3D(0, 1, 2);
-		Vector3D result = new Vector3D(0, 1, 2);
-		Vector3D expected = testA.dot(testB);
+		double result = 3.0;
+		Double expected = testA.dot(testB);
+		assertTrue(expected.equals(result));
+	}
+
+	@Test
+	public void testMagnitude() { // returns double Vector3D testA = new
+		Vector3D testA = new Vector3D(1, 3, 5);
+		Double expected = Math.sqrt(35);
+		double result = testA.magnitude(testA);
 		assertTrue(expected.equals(result));
 	}
 /*
-	@Test
-	public void testMagnitude() { // returns double Vector3D testA = new
-		Vector3D(1, 3, 5);
-		double result = Math.sqrt(35);
-		assertEquals(testA.magnitude(), result);
-	}
-
 	@Test
 	public void testToString() { // returns string Vector3D testA = new
 		Vector3D(1, 3, 5);
