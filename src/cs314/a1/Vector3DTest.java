@@ -73,14 +73,15 @@ public class Vector3DTest {
 		double result = testA.magnitude(testA);
 		assertTrue(expected.equals(result));
 	}
-/*
+
 	@Test
 	public void testToString() { // returns string Vector3D testA = new
-		Vector3D(1, 3, 5);
-		String result = "{1, 3, 5}";
-		assertEquals(testA.toString(), result);
+		Vector3D testA = new Vector3D(1, 3, 5);
+		String expected = "{1.0, 3.0, 5.0}";
+		String result = testA.toString();
+		assertTrue(expected.equals(result));
 	}
-*/
+
 	@Test
 	public void testEquals() {
 		Vector3D testA = new Vector3D(1, 1, 1);

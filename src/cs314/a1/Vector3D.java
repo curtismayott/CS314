@@ -7,6 +7,8 @@ public class Vector3D {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("woooo\n");
+		Vector3D test = new Vector3D(1,3,5);
+		System.out.println("The coordinates are " + test.toString());
 	}
 	public Vector3D(double x, double y, double z){
 		this.x = x;
@@ -45,7 +47,7 @@ public class Vector3D {
 		return this.x == v.x && this.y == v.y && this.z == v.z;
 	}
 	public String toString(){
-		return "{" + this.x + " " + this.y + " " + this.z + "}";
+		return "{" + this.x + ", " + this.y + ", " + this.z + "}";
 	}
 	
 }
