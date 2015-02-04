@@ -1,3 +1,8 @@
+/*AllTest.java
+ * runs JUnit
+ * Author: Curtis Mayott
+ * Updated 
+ */
 package cs314.a1;
 
 import org.junit.runner.JUnitCore;

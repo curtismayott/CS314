@@ -5,26 +5,26 @@ Tyler Kuntz
 Curtis Mayott
 
 Design approaches is something we need to work on. 
-Both Tyler and Sean worked on one method, which was unnecessary.
-Project/GitHub setup was time consuming - need to get used to it.
-This assignment seemed to be too simple to do as a team (<100 lines of code for 3 people), this is a reason as to why it was difficult to split up the work effectively.
+	-Both Tyler and Sean worked on one method, which was unnecessary. Need to split up work and communicate.
+	-Project/GitHub setup was time consuming - need to get used to it.
+	-This assignment seemed to be too simple to do as a team (<100 lines of code for 3 people), this is a reason as to why it was difficult to split up the work effectively.
 
 
 Specific contributions:
 
-	Curtis:Initialized GitHub for team, helped with setup on other machines, wrote all test cases and test controller (AllTest.java), methods written in Vector3D: constructor, scale, add, and equals.
+	Curtis:Initialized GitHub for team, helped with setup on other machines, wrote all test cases 		and test controller (AllTest.java), methods written in Vector3D: constructor, scale, add, and equals.
 
-	Sean: Implemented subtract and magnitude methods.
+	Sean: Implemented subtract, magnitude, and toString methods and test cases.
 
-	Tyler:
+	Tyler: Wrote dot and negate methods in Vector3D.
 
 Time spent:
 
 	Curtis: 1 hour - github/project setup; 1.5 hours - test cases written and made to work; 5 minutes - functions in Vector3D.
 
-	Sean:
+	Sean: 90 minutes.
 
-	Tyler:
+	Tyler: 30 minutes.
 
 
 "I (We) have not given, received, or used any unauthorized assistance."

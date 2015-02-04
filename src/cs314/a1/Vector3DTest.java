@@ -1,3 +1,7 @@
+/*Vector3DtTest.java
+ * Implements tests for methods in Vector3D.java
+ * Author: Tyler, Curtis, and Sean
+ */
 package cs314.a1;
 
 import static org.junit.Assert.*;

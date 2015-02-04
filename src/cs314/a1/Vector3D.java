@@ -1,3 +1,8 @@
+/*Vector3D.java
+ * Implements functions for a 3D vector
+ * Author: Tyler, Curtis, and Sean
+ * Updated: 
+ */
 package cs314.a1;
 
 public class Vector3D {
@@ -6,7 +11,7 @@ public class Vector3D {
 	double z;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("woooo\n");
+		//System.out.println("woooo\n");
 		Vector3D test = new Vector3D(1,3,5);
 		System.out.println("The coordinates are " + test.toString());
 	}
